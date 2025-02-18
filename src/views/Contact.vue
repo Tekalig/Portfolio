@@ -1,5 +1,5 @@
 <template>
-    <div class="pt-24 px-6">
+    <div class="px-6">
         <h1 class="text-5xl font-bold text-purple-400">Contact Me</h1>
         <p class="mt-4 text-gray-300">
             Feel free to reach out to me for collaborations, job opportunities, or just to say hi!
