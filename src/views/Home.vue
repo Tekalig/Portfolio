@@ -1,14 +1,21 @@
 <template>
-    <div class="pt-24 px-6">
-        <h1 class="text-5xl font-bold text-purple-400">Welcome to My Portfolio</h1>
-        <p class="mt-4 text-gray-300">I'm a passionate developer creating amazing web experiences.</p>
+    <div class="flex flex-col items-center justify-center bg-gray-100 dark:bg-gray-900 px-6"> 
+        <HeroSection />
+        <ServicesSection />
     </div>
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
+import { defineComponent } from "vue";
+import ServicesSection from "../components/ServicesSection.vue";
+import HeroSection from "../components/HeroSection.vue";
 
 export default defineComponent({
-    name: 'Home',
+    name: "Home",
+    components: {ServicesSection, HeroSection}
 });
 </script>
+
+<style>
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css";
+</style>
