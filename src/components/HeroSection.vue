@@ -1,5 +1,5 @@
 <template>
-    <div class="flex items-center justify-center h-screen bg-gray-100 dark:bg-gray-900 px-6">
+    <div class="flex items-center justify-center h-screen bg-gray-100 dark:bg-gray-800 px-6">
         <div class="max-w-4xl text-center flex flex-col md:flex-row items-center gap-8">
             <!-- Text Section -->
             <div class="text-left">
