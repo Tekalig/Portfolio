@@ -1,6 +1,6 @@
 <template>
-    <div class="flex justify-end p-4">
-        <div class="w-80 bg-gray-100 shadow-lg rounded-lg p-6 dark:bg-gray-800">
+    <div class=" sticky top-0 right-0 h-full overflow-y-auto">
+        <div class="w-96 bg-gray-100 shadow-lg rounded-lg p-6 dark:bg-gray-800">
             <div class="flex flex-col items-center">
                 <img class="w-24 h-24 rounded-full border-4 border-gray-300" src="https://via.placeholder.com/100" alt="Profile" />
                 <h2 class="mt-4 text-lg font-semibold">Tekalign Mesfin</h2>
