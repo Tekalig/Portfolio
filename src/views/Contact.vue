@@ -38,3 +38,7 @@ export default defineComponent({
     name: 'Contact',
 });
 </script>
+
+<style scoped>
+/* Add your styles here */
+</style>
