@@ -1,50 +1,48 @@
 <template>
-    <div class="pt-24 px-6">
-        <h1 class="text-5xl font-bold text-purple-400">My Projects</h1>
-        <div class="mt-8 space-y-6">
-            <div class="p-6 bg-gray-800 rounded-lg shadow-lg">
-                <h2 class="text-2xl font-semibold text-purple-400">Project 1</h2>
-                <p class="mt-2 text-gray-300">
-                    A modern web application built with Vue.js and Tailwind CSS.
-                </p>
-                <a href="https://github.com/yourusername/project1" class="mt-4 inline-block text-purple-400 hover:underline">
-                    <font-awesome-icon :icon="['fab', 'github']" /> View Project
-                </a>
+    <section class="dark:bg-gray-900 dark:text-white min-h-screen py-12 px-6 max-w-5xl">
+        <div class="container mx-auto">
+            <h1 class="text-5xl font-bold mb-4 text-gray-100">/projects</h1>
+            <p class="text-lg text-gray-400 mb-12">List of my projects</p>
+
+            <h2 class="text-3xl text-purple-500 font-bold mb-6">#complete-apps</h2>
+            <div class="grid gap-8 lg:grid-cols-3 md:grid-cols-2">
+                <ProjectCard title="ChertNodes" description="Minecraft servers hosting" tech="HTML SCSS Python Flask"
+                    liveLink="#" cachedLink="#" image="https://via.placeholder.com/300x200" />
+                <ProjectCard title="Kahoot Answers Viewer" description="Get answers to your kahoot quiz"
+                    tech="CSS Express Node.js" liveLink="#" image="https://via.placeholder.com/300x200" />
+                <ProjectCard title="ProtectX" description="Discord anti-crash bot"
+                    tech="React Express Discord.js Node.js" cachedLink="#"
+                    image="https://via.placeholder.com/300x200" />
+                <ProjectCard title="Kotik Bot" description="Multi-functional discord bot" tech="HTML CSS JS"
+                    liveLink="#" image="https://via.placeholder.com/300x200" />
+                <ProjectCard title="Portfolio" description="You’re using it rn" tech="Vue TS Less" githubLink="#"
+                    image="https://via.placeholder.com/300x200" />
             </div>
-            <div class="p-6 bg-gray-800 rounded-lg shadow-lg">
-                <h2 class="text-2xl font-semibold text-purple-400">Project 2</h2>
-                <p class="mt-2 text-gray-300">
-                    A REST API built with Node.js and Express.
-                </p>
-                <a href="https://github.com/yourusername/project2" class="mt-4 inline-block text-purple-400 hover:underline">
-                    <font-awesome-icon :icon="['fab', 'github']" /> View Project
-                </a>
-            </div>
-            <div class="p-6 bg-gray-800 rounded-lg shadow-lg">
-                <h2 class="text-2xl font-semibold text-purple-400">Project 3</h2>
-                <p class="mt-2 text-gray-300">
-                    A mobile app built with React Native.
-                </p>
-                <a href="https://github.com/yourusername/project3" class="mt-4 inline-block text-purple-400 hover:underline">
-                    <font-awesome-icon :icon="['fab', 'github']" /> View Project
-                </a>
+
+            <h2 class="text-3xl text-purple-500 font-bold mt-16 mb-6">#small-projects</h2>
+            <div class="grid gap-8 lg:grid-cols-3 md:grid-cols-2">
+                <ProjectCard title="Bot boilerplate"
+                    description="Start creating scalable discord.js bot with typescript" tech="Discord.js TS JS"
+                    githubLink="#" image="https://via.placeholder.com/300x200" />
+                <ProjectCard title="My blog" description="Front-end of my future blog website written in Vue"
+                    tech="VUE CSS JS" githubLink="#" image="https://via.placeholder.com/300x200" />
+                <ProjectCard title="Chess pro" description="Landing page for chess tournaments" tech="Figma"
+                    figmaLink="#" image="https://via.placeholder.com/300x200" />
+                <ProjectCard title="Crash protect website" description="Anti-raid, anti-crash discord bot template"
+                    tech="Figma" figmaLink="#" image="https://via.placeholder.com/300x200" />
+                <ProjectCard title="CSS experiments" description="Collection of my little projects in CSS"
+                    tech="HTML CSS" liveLink="#" image="https://via.placeholder.com/300x200" />
             </div>
         </div>
-    </div>
+    </section>
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+import { defineComponent } from "vue";
+import ProjectCard from "../components/ProjectCard.vue";
 
 export default defineComponent({
     name: 'Projects',
-    components: {
-        FontAwesomeIcon,
-    },
+    components: {ProjectCard}
 });
 </script>
-
-<style scoped>
-/* Add your styles here */
-</style>
