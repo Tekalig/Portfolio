@@ -1,5 +1,5 @@
 <template>
-    <div class=" sticky top-0 right-0 h-full overflow-y-auto">
+    <div class="sticky top-0 right-0 h-full overflow-y-auto">
         <div class="w-96 bg-gray-100 shadow-lg rounded-lg p-6 dark:bg-gray-800">
             <div class="flex flex-col items-center">
                 <img class="w-24 h-24 rounded-full border-4 border-gray-300" src="https://via.placeholder.com/100" alt="Profile" />
@@ -7,11 +7,11 @@
                 <p class="text-gray-500">Full-Stack Developer and Data Scientests</p>
             </div>
             <div class="flex justify-center space-x-3 mt-4">
-                <font-awesome-icon :icon="['fab', 'facebook']" class="text-yellow-500"></font-awesome-icon>
-                <font-awesome-icon :icon="['fab', 'instagram']" class="text-yellow-500"></font-awesome-icon>
-                <font-awesome-icon :icon="['fab', 'twitter']" class="text-yellow-500"></font-awesome-icon>
-                <font-awesome-icon :icon="['fab', 'linkedin']" class="text-yellow-500"></font-awesome-icon>
-                <font-awesome-icon :icon="['fab', 'dribbble']" class="text-yellow-500"></font-awesome-icon>
+                <font-awesome-icon :icon="['fab', 'facebook']" class="text-yellow-500 dark:text-green-500"></font-awesome-icon>
+                <font-awesome-icon :icon="['fab', 'instagram']" class="text-yellow-500 dark:text-green-500"></font-awesome-icon>
+                <font-awesome-icon :icon="['fab', 'twitter']" class="text-yellow-500 dark:text-green-500"></font-awesome-icon>
+                <font-awesome-icon :icon="['fab', 'linkedin']" class="text-yellow-500 dark:text-green-500"></font-awesome-icon>
+                <font-awesome-icon :icon="['fab', 'dribbble']" class="text-yellow-500 dark:text-green-500"></font-awesome-icon>
             </div>
             <div class="mt-6">
                 <p><span class="font-bold text-yellow-500">Age:</span> 23</p>
@@ -24,7 +24,7 @@
                 <div v-for="lang in languages" :key="lang.name" class="mt-2">
                     <p>{{ lang.name }} {{ lang.percentage }}%</p>
                     <div class="w-full bg-gray-200 rounded-full h-2.5">
-                        <div class="bg-yellow-500 h-2.5 rounded-full" :style="{ width: lang.percentage + '%' }"></div>
+                        <div class="bg-yellow-500 dark:bg-green-500 h-2.5 rounded-full" :style="{ width: lang.percentage + '%' }"></div>
                     </div>
                 </div>
             </div>
@@ -33,7 +33,7 @@
                 <div v-for="skill in skills" :key="skill.name" class="mt-2">
                     <p>{{ skill.name }} {{ skill.percentage }}%</p>
                     <div class="w-full bg-gray-200 rounded-full h-2.5">
-                        <div class="bg-yellow-500 h-2.5 rounded-full" :style="{ width: skill.percentage + '%' }"></div>
+                        <div class="bg-yellow-500 dark:bg-green-500 h-2.5 rounded-full" :style="{ width: skill.percentage + '%' }"></div>
                     </div>
                 </div>
             </div>
@@ -47,7 +47,7 @@
                 </ul>
             </div>
             <div class="mt-6 text-center">
-                <button class="bg-yellow-500 text-white px-4 py-2 rounded-lg">Download CV</button>
+                <button class="bg-yellow-500 dark:bg-green-500 text-white px-4 py-2 rounded-lg">Download CV</button>
             </div>
         </div>
     </div>
