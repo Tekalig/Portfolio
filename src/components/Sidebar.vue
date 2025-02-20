@@ -4,37 +4,37 @@
         <div class="w-28 bg-gray-100 dark:bg-gray-800 flex flex-col items-center py-4 h-full">
             <div class="flex flex-col space-y-6 flex-1">
                 <router-link to="/" class="flex flex-col items-center">
-                    <div class="p-2 rounded bg-gray-200 dark:bg-gray-700" :class="{'bg-yellow-500 text-white': isActive('/')}" @click="setActive('/')">
+                    <div class="p-2 rounded bg-gray-200 dark:bg-gray-700" :class="{'bg-yellow-500 dark:bg-green-500 text-white': isActive('/')}" @click="setActive('/')">
                         <font-awesome-icon :icon="['fas', 'home']"></font-awesome-icon>
                     </div>
                     <p class="text-xs mt-1">Home</p>
                 </router-link>
                 <router-link to="/projects" class="flex flex-col items-center">
-                    <div class="p-2 rounded bg-gray-200 dark:bg-gray-700" :class="{'bg-yellow-500 text-white': isActive('/projects')}" @click="setActive('/projects')">
+                    <div class="p-2 rounded bg-gray-200 dark:bg-gray-700" :class="{'bg-yellow-500 dark:bg-green-500 text-white': isActive('/projects')}" @click="setActive('/projects')">
                         <font-awesome-icon :icon="['fas', 'file-alt']"></font-awesome-icon>
                     </div>
                     <p class="text-xs mt-1">Projects</p>
                 </router-link>
                 <router-link to="/education" class="flex flex-col items-center">
-                    <div class="p-2 rounded bg-gray-200 dark:bg-gray-700" :class="{'bg-yellow-500 text-white': isActive('/education')}" @click="setActive('/education')">
+                    <div class="p-2 rounded bg-gray-200 dark:bg-gray-700" :class="{'bg-yellow-500 dark:bg-green-500 text-white': isActive('/education')}" @click="setActive('/education')">
                         <font-awesome-icon :icon="['fas', 'user-graduate']"></font-awesome-icon>
                     </div>
                     <p class="text-xs mt-1">Education</p>
                 </router-link>
                 <router-link to="/work" class="flex flex-col items-center">
-                    <div class="p-2 rounded bg-gray-200 dark:bg-gray-700" :class="{'bg-yellow-500 text-white': isActive('/work')}" @click="setActive('/work')">
+                    <div class="p-2 rounded bg-gray-200 dark:bg-gray-700" :class="{'bg-yellow-500 dark:bg-green-500 text-white': isActive('/work')}" @click="setActive('/work')">
                         <font-awesome-icon :icon="['fas', 'briefcase']"></font-awesome-icon>
                     </div>
                     <p class="text-xs mt-1">Work</p>
                 </router-link>
                 <router-link to="/design" class="flex flex-col items-center">
-                    <div class="p-2 rounded bg-gray-200 dark:bg-gray-700" :class="{'bg-yellow-500 text-white': isActive('/design')}" @click="setActive('/design')">
+                    <div class="p-2 rounded bg-gray-200 dark:bg-gray-700" :class="{'bg-yellow-500 dark:bg-green-500 text-white': isActive('/design')}" @click="setActive('/design')">
                         <font-awesome-icon :icon="['fas', 'paint-brush']"></font-awesome-icon>
                     </div>
                     <p class="text-xs mt-1">Design</p>
                 </router-link>
                 <router-link to="/contact" class="flex flex-col items-center">
-                    <div class="p-2 rounded bg-gray-200 dark:bg-gray-700" :class="{'bg-yellow-500 text-white': isActive('/contact')}" @click="setActive('/contact')">
+                    <div class="p-2 rounded bg-gray-200 dark:bg-gray-700" :class="{'bg-yellow-500 dark:bg-green-500 text-white': isActive('/contact')}" @click="setActive('/contact')">
                         <font-awesome-icon :icon="['fas', 'comment']"></font-awesome-icon>
                     </div>
                     <p class="text-xs mt-1">Contact</p>
@@ -44,7 +44,7 @@
             <button @click="toggleDarkMode" 
                     class="flex flex-col items-center p-2 rounded mb-4"
                     :class="darkMode ? 'bg-gray-600' : 'bg-gray-300'">
-                <font-awesome-icon :icon="darkMode ? ['fas', 'moon'] : ['fas', 'sun']"></font-awesome-icon>
+                <font-awesome-icon :icon="darkMode ? ['fas', 'sun'] : ['fas', 'moon']"></font-awesome-icon>
             </button>
         </div>
         <!-- Main Content -->
