@@ -6,11 +6,9 @@
 </template>
 
 <script>
-export default {
-  name: 'About',
-};
-</script>
+import { defineComponent } from 'vue';
 
-<style scoped>
-/* Add your styles here */
-</style>
+export default defineComponent ({
+  name: 'About',
+});
+</script>
