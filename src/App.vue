@@ -20,7 +20,7 @@
 import { defineComponent } from 'vue';
 import Footer from './components/Footer.vue';
 import Sidebar from './components/Sidebar.vue';
-import ProfileCard from './components/Profile-card.vue';
+import ProfileCard from './components/ProfileCard.vue';
 
 export default defineComponent({
   components: { Footer, Sidebar, ProfileCard },
