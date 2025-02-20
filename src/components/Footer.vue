@@ -1,6 +1,6 @@
 <template>
-    <footer class="p-6 bg-gray-100 text-center dark:bg-gray-800">
-        <p class="text-purple-400">&copy; 2023 My Portfolio. All rights reserved.</p>
+    <footer class="p-6 bg-gray-100 text-center dark:bg-gray-900 w-full">
+        <p class="text-gray-400 dark:text-gray-300">&copy; 2023 My Portfolio. All rights reserved.</p>
     </footer>
 </template>
 
