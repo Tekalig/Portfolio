@@ -18,7 +18,7 @@
                                 <h3 class="text-xl font-semibold">{{ item.institution }}</h3>
                                 <p class="text-gray-500">{{ item.role }}</p>
                             </div>
-                            <span class="bg-yellow-400 dark:bg-green-500 text-black px-3 py-1 rounded-full">
+                            <span class="bg-yellow-400 text-black px-3 py-1 rounded-full">
                                 {{ item.date }}
                             </span>
                         </div>
