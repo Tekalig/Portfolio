@@ -1,10 +1,10 @@
 <template>
-    <div class="flex items-center justify-center h-screen bg-gray-100 dark:bg-gray-800 px-6">
-        <div class="max-w-4xl text-center flex flex-col md:flex-row items-center gap-8">
+    <div class="flex items-center justify-center bg-gray-100 dark:bg-gray-800 py-6 px-8 min-h-80 max-w-5xl">
+        <div class=" text-center flex flex-col md:flex-row items-center gap-8">
             <!-- Text Section -->
             <div class="text-left">
                 <h1 class="text-4xl font-bold text-gray-900 dark:text-white">
-                    I’m <span class="text-yellow-500">Rayan Adlrdard</span>
+                    I’m <span class="text-yellow-500 dark:text-green-500">Tekalign Mesfin</span>
                 </h1>
                 <h2 class="text-3xl font-bold text-gray-700 dark:text-gray-300 mt-2">
                     Front-end Developer
@@ -14,7 +14,7 @@
                     Placerat Lobortis. Natoque Rutrum Semper Sed Suspendisse Nunc Lectus.
                 </p>
                 <button
-                    class="mt-6 px-6 py-3 bg-yellow-500 text-white font-bold rounded-lg shadow-md hover:bg-yellow-600">
+                    class="mt-6 px-6 py-3 bg-yellow-500 dark:bg-green-500 text-white font-bold rounded-lg shadow-md hover:bg-yellow-600">
                     HIRE ME →
                 </button>
             </div>
@@ -23,7 +23,7 @@
                 <img src="../assets/images/profile.jpg" alt="Profile" class="w-64 h-64 rounded-lg shadow-lg" />
             </div>
         </div>
-        
+
     </div>
 </template>
 
