@@ -5,7 +5,7 @@
             <h2 class="text-3xl font-bold mb-4 dark:text-white">Contact Information</h2>
             <div class=" shadow-md rounded-xl p-6 mb-6 dark:bg-gray-800">
                 <div class="flex items-center mb-4">
-                    <div class="bg-yellow-500 rounded-full p-2">
+                    <div class="bg-yellow-500 dark:bg-green-500 rounded-full p-2">
                         <i class="fas fa-map-marker-alt text-white"></i>
                     </div>
                 </div>
@@ -17,7 +17,7 @@
             </div>
             <div class=" shadow-md rounded-xl p-6 mb-6 dark:bg-gray-800">
                 <div class="flex items-center mb-4">
-                    <div class="bg-yellow-500 rounded-full p-2">
+                    <div class="bg-yellow-500 dark:bg-green-500 rounded-full p-2">
                         <i class="fas fa-envelope text-white"></i>
                     </div>
                 </div>
@@ -29,7 +29,7 @@
             </div>
             <div class=" shadow-md rounded-xl p-6 dark:bg-gray-800">
                 <div class="flex items-center mb-4">
-                    <div class="bg-yellow-500 rounded-full p-2">
+                    <div class="bg-yellow-500 dark:bg-green-500 rounded-full p-2">
                         <i class="fas fa-phone text-white"></i>
                     </div>
                 </div>
@@ -52,7 +52,8 @@
                 <input type="text" placeholder="Subject" class="w-full mb-4 p-3 border rounded-md dark:text-black" />
                 <textarea placeholder="Your Message"
                     class="w-full mb-4 p-3 border rounded-md dark:text-black"></textarea>
-                <button class="bg-yellow-500 text-white px-6 py-2 rounded-md hover:bg-yellow-600">Send Message</button>
+                <button class="bg-yellow-500 dark:bg-green-500 text-white px-6 py-2 rounded-md hover:bg-yellow-600">Send
+                    Message</button>
             </form>
         </div>
     </div>

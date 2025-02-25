@@ -1,5 +1,5 @@
 <template>
-  <section class="py-16 text-center">
+  <section class="py-16 text-center bg-gray-100 dark:bg-gray-800">
     <h2 class="text-4xl font-bold text-gray-900 dark:text-white">My Services</h2>
     <p class="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto mt-4">
       Amet Minim Mollit Non Deserunt Ullamco Est Sit Aliqua Dolor.
@@ -8,7 +8,7 @@
 
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 mt-12 max-w-5xl mx-auto">
       <div v-for="service in services" :key="service.title" class="flex flex-col items-center">
-        <div class="text-yellow-500 text-5xl mb-4">
+        <div class="text-yellow-500 dark:text-green-500 text-5xl mb-4">
           <i :class="service.icon"></i>
         </div>
         <h3 class="text-xl font-semibold text-gray-900 dark:text-white">{{ service.title }}</h3>
@@ -16,7 +16,7 @@
       </div>
     </div>
 
-    <button class="mt-8 px-6 py-3 bg-yellow-500 text-white font-bold rounded-lg shadow-md hover:bg-yellow-600">
+    <button class="mt-8 px-6 py-3 bg-yellow-500 dark:bg-green-500 text-white font-bold rounded-lg shadow-md hover:bg-yellow-600 dark:hover:bg-green-600">
       ORDER NOW →
     </button>
   </section>
