@@ -35,7 +35,7 @@ To start developing with this template, follow these steps:
 
 1. **Clone the repository**:
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/Tekalig/Portfolio.git
     cd Portfolio
     ```
 
