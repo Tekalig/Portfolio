@@ -27,11 +27,11 @@
                     </div>
                     <p class="text-xs mt-1">Work</p>
                 </router-link>
-                <router-link to="/design" class="flex flex-col items-center">
+                <router-link to="/about" class="flex flex-col items-center">
                     <div class="p-2 rounded bg-gray-200 dark:bg-gray-700" :class="{'bg-yellow-500 dark:bg-green-500 text-white': isActive('/design')}" @click="setActive('/design')">
                         <font-awesome-icon :icon="['fas', 'paint-brush']"></font-awesome-icon>
                     </div>
-                    <p class="text-xs mt-1">Design</p>
+                    <p class="text-xs mt-1">About Me</p>
                 </router-link>
                 <router-link to="/contact" class="flex flex-col items-center">
                     <div class="p-2 rounded bg-gray-200 dark:bg-gray-700" :class="{'bg-yellow-500 dark:bg-green-500 text-white': isActive('/contact')}" @click="setActive('/contact')">
@@ -91,7 +91,3 @@ export default defineComponent({
     },
 });
 </script>
-
-<style>
-@import "animate.css/animate.min.css";
-</style>
